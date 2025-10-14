@@ -1,0 +1,27 @@
+{
+  "name": "vanguardapi",
+  "version": "1.0.0",
+  "description": "Cardfight Vanguard API, a database to get all cards",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "cardfight",
+    "vanguard",
+    "api",
+    "database",
+    "restAPI",
+    "Express",
+    "Nodejs"
+  ],
+  "author": "@Renatu5, @Grand-Junction",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
